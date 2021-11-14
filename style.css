@@ -96,6 +96,7 @@ a {
 .team-members{
   display:flex;
   justify-content:center;
+  flex-wrap: wrap;
 }
 
 .member{
@@ -109,7 +110,7 @@ a {
   margin-top: 20px;
 }
 
-.member-pic{
+.member img {
   height: 200px;
 }
 
